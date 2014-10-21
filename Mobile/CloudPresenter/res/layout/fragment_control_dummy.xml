@@ -1,0 +1,457 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Control$DummySectionFragment" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button5"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button6"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button7"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button8"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button9"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button10"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button11"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:onClick="keyPress" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button12"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="W" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button13"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button14"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button15"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button16"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Y"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button17"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="U" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button19"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button20"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button18"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P"
+                android:onClick="keyPress" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button21"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button22"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button23"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button24"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button25"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button26"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="H"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button27"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="J"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button28"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="K"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button29"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button37"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ent"
+                android:onClick="keyPress" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ToggleButton
+                android:id="@+id/btnShift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ToggleButton" 
+                android:textOn="Shift"
+                android:textOff="Shift"
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button30"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Z"                 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button31"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button32"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button33"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button34"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button35"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="N" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button36"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button38"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UP"
+                android:onClick="keyPress" />
+
+            <Button
+                android:id="@+id/button47"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tab" 
+                android:onClick="keyPress"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ToggleButton
+                android:id="@+id/btnCtrl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ToggleButton"
+                android:textOn="Ctrl"
+                android:textOff="Ctrl"
+                android:onClick="keyPress" />
+
+            <ToggleButton
+                android:id="@+id/btnAlt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ToggleButton" 
+                android:textOn="Alt"
+                android:textOff="Alt"                
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button39"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spc" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button40"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spc" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button41"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bksp" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button42"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Del"
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button43"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Esc" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button44"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Left" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button45"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Down" 
+                android:onClick="keyPress"/>
+
+            <Button
+                android:id="@+id/button46"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Right" 
+                android:onClick="keyPress"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
